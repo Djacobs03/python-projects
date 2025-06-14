@@ -1,0 +1,31 @@
+# Byte-compiled / cache files
+__pycache__/
+*.py[cod]
+*.so
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Local environment folders
+.env
+.venv/
+venv/
+env/
+*.env
+
+# Streamlit & config
+.streamlit/
+
+# System/editor files
+.DS_Store
+Thumbs.db
+.vscode/
+
+# Ignore all CSVs by default...
+*.csv
+
+# ...Except the core dataset
+!International_Education_Costs.csv
+
+# Ignore logs
+*.log
