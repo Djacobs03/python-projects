@@ -13,7 +13,7 @@ An interactive Streamlit dashboard for comparing university costs worldwide — 
 📊 [Dataset](./university-cost-dashboard/international_education_costs.csv)  
 📄 [Project README](./university-cost-dashboard/README.md)
 
->  ***Note***: This dashboard is hosted on Render's free tier. It may take ~30–60 seconds to load if inactive.
+>    ***Note***: This dashboard is hosted on Render's free tier. It may take ~30–60 seconds to load if inactive.
 
 
 ---
