@@ -2,9 +2,9 @@ import streamlit as st
 import pandas as pd
 import plotly.express as px
 import requests
-import os
+import os  # keep this if you're using os.getenv() or path ops
 
-os.chdir(os.path.dirname(os.path.abspath(__file__)))
+# ⛔️ Removed: os.chdir(...)
 
 # Page config
 st.set_page_config(
@@ -13,6 +13,7 @@ st.set_page_config(
     layout="wide",
     initial_sidebar_state="expanded"
 )
+
 
 # Title and Introduction
 st.title("🌍 Global University Cost Dashboard")
