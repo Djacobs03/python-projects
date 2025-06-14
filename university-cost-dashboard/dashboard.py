@@ -38,7 +38,7 @@ def load_data():
     """Load data from bundled CSV file - Deployment Ready"""
     try:
         # Load the bundled CSV file
-        df = pd.read_csv('International_Education_Costs.csv')
+        df = pd.read_csv('international_education_costs.csv')
         st.sidebar.success("✅ Data loaded successfully!")
         
         # Display basic info 
