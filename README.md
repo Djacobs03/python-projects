@@ -5,14 +5,16 @@ This repository showcases two complete Python projects focused on interactive da
 ---
 
 ## 🚀 Project 1: Global University Cost Dashboard  
-[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://python-projects-o8zaubqeesvsfbuvm67qzs.streamlit.app/)
+[![Open App](https://img.shields.io/badge/Open%20App-Render-blue?logo=render&logoColor=white)](https://python-projects-ouey.onrender.com)
 
-An interactive Streamlit dashboard to compare university costs worldwide 🌍 — with interactive visualizations, cost breakdowns, and dual-currency (USD & INR) views.
-
+An interactive Streamlit dashboard for comparing university costs worldwide — featuring dynamic visualizations, cost breakdowns, and dual-currency (USD & INR) support.
 
 📁 [Project Folder](./university-cost-dashboard/)  
-📊 [Dataset](./university-ost-dashboard/international_education_costs.csv)  
-📜 [Project README](./university-cost-dashboard/README.md) — *go through this for details and dataset notes.*
+📊 [Dataset](./university-cost-dashboard/international_education_costs.csv)  
+📄 [Project README](./university-cost-dashboard/README.md)
+
+>  ***Note***: This dashboard is hosted on Render's free tier. It may take ~30–60 seconds to load if inactive.
+
 
 ---
 
