@@ -1,19 +1,18 @@
 #  My Python Projects
 
-Ahh, Python projects! This repository contains two complete data projects showcasing dashboard development and data analysis using real-world datasets.
+This repository showcases two complete Python projects focused on interactive dashboards and exploratory data analysis using real-world datasets.
 
 ---
 
-## 🚀 Project 1: Global University Cost Dashboard
+## 🚀 Project 1: Global University Cost Dashboard  
+[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://python-projects-o8zaubqeesvsfbuvm67qzs.streamlit.app/)
+
 An interactive Streamlit dashboard to compare university costs worldwide 🌍 — with interactive visualizations, cost breakdowns, and dual-currency (USD & INR) views.
 
-**🔗 Live App**: [View Dashboard](https://your-username.streamlit.app) — *see project README for details.*
-
-[![View on Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://your-username.streamlit.app)
 
 📁 [Project Folder](./university-cost-dashboard/)  
 📊 [Dataset](./university-ost-dashboard/international_education_costs.csv)  
-📜 [Project README](./university-cost-dashboard/README.md) — *go through this for implementation details and dataset notes.*
+📜 [Project README](./university-cost-dashboard/README.md) — *go through this for details and dataset notes.*
 
 ---
 
@@ -24,11 +23,17 @@ An exploratory data analysis of disease outbreaks in India with a summarized inf
 📁 [Project Folder](./EpiClim-disease-outbreak-analysis/)  
 📘 [Jupyter Notebook](./EpiClim-disease-outbreak-analysis/EpiClim-dataset_analysis.ipynb)  
 🖼️ [Infographic Breakdown (PDF)](./EpiClim-disease-outbreak-analysis/quick_breakdown.pdf)  
-📜 [Project README](./EpiClim-disease-outbreak-analysis/README.md) — *go through this for full methodology and findings.*
+📜 [Project README](./EpiClim-disease-outbreak-analysis/README.md) — *read this for dataset details and project insights.*
 
 ---
 
-🧾 Both projects include clean code, insights, and ready-to-run artifacts.
+## Contents
+
+- Well-documented, reproducible code
+- Real datasets and visual insights
+- Ready-to-run dashboards and notebooks
+
+Feel free to explore, use, or adapt these projects in your own work.
 
 ---
 
