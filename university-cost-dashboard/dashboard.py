@@ -33,32 +33,33 @@ This dashboard provides a comprehensive comparative view of university expenses 
 ---
 """)
 
-@st.cache_data
+@st.cache_data(show_spinner=False)
 def load_data():
-    """Load data from bundled CSV file - Deployment Ready"""
+    """Load and cache the education cost dataset"""
     try:
-        # Load the bundled CSV file
-        df = pd.read_csv('international_education_costs.csv')
-        st.sidebar.success("✅ Data loaded successfully!")
-        
-        # Display basic info 
-        st.sidebar.info(f"📊 Loaded {len(df)} records from {len(df['Country'].unique())} countries")
-        
+        df = pd.read_csv("international_education_costs.csv")
         return df
     except FileNotFoundError:
-        st.sidebar.error("❌ Data file 'International_Education_Costs.csv' not found!")
-        st.error("""
-        **Data File Missing!** 
-        
-        Please ensure 'International_Education_Costs.csv' is in the same folder as this app.
-        
-        **For deployment:** Include the CSV file in your GitHub repository.
-        """)
-        st.stop()
-    except Exception as e:
-        st.sidebar.error(f"❌ Error loading data: {str(e)}")
-        st.error(f"Error loading data: {str(e)}")
-        st.stop()
+        return None
+    except Exception:
+        return None
+
+# Load data
+df = load_data()
+
+# Handle UI & feedback separately
+if df is None:
+    st.sidebar.error("❌ Failed to load 'international_education_costs.csv'")
+    st.error(
+        "**Data File Missing or Corrupted!**\n\n"
+        "Please ensure 'international_education_costs.csv' is present in the repo folder.\n"
+        "This file must be included in the deployed GitHub repo for Streamlit to access it."
+    )
+    st.stop()
+else:
+    st.sidebar.success("✅ Data loaded successfully!")
+    st.sidebar.info(f"📊 Loaded {len(df)} records from {df['Country'].nunique()} countries")
+
 
 # Load data
 df = load_data()
